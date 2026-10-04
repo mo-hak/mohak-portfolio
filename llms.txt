@@ -1,0 +1,69 @@
+# Mohak Gupta
+> Full Stack Engineer: blockchain systems and AI agents
+> B.Tech–M.Tech, Computer Science and Engineering (The LNM Institute of Information Technology, Dec 2021 – May 2026)
+> Contact: mohakgupta100@gmail.com
+> Profiles: github.com/mo-hak · linkedin.com/in/mohak-gupta · x.com/mohak_sol
+
+## Summary
+I build backend systems and infrastructure for decentralized applications, and lately the agent harnesses that write software on top of them. On Bento's founding team I helped take the prediction market to production (trading and settlement services, real-time feeds, wallets, the partner SDK), then built Bento Create, where an AI agent turns a prompt into a published game. I've led product launches, kept high-traffic systems fast, and I'm active in the open-source Web3 ecosystem, as a Uniswap developer ambassador, hackathon builder and bounty contributor.
+
+## Professional Experience
+- Bento.Fun (Aug 2025 – Present)
+  Full Stack Engineer
+  • Engineered high-performance Node.js microservices for off-chain trading and on-chain settlement: event-driven order management and real-time trading infrastructure processing $1M+ in volume.
+  • Architected a unified wallet layer on Turnkey smart wallets, hiding Web3 complexity and transaction signing behind a Web2-like Auth0 experience across web, mobile and group chats.
+  • Built Bento Create, a prompt-to-game studio where an AI agent interviews the creator, writes the game, compiles and playtests it in a sandbox, and publishes it. Each chat is a durable agent on Cloudflare Durable Objects.
+  • Designed the agent harness: phase-scoped tools and prompts, mid-turn steering, read-only sub-agents with a fresh context, per-model context compaction, prompt caching, and skills the agent loads on demand.
+  • Built staked challenges for Create games: game rules written in Rust and compiled to WebAssembly, the same binary replayed to settle every payout, drand-seeded runs, and a Games SDK with bonded disputes and serialized settlement.
+  • Architected and migrated market settlement onto a persistent BullMQ job queue for 100% reliability and horizontal scaling across distributed worker nodes.
+  • Optimised database performance and Redis caching to reach sub-10ms responses, reducing pricing latency from 800ms to 2ms.
+  • Designed and shipped a cross-environment B2B SDK with tiered API-key management and distributed rate limiting to scale partner integrations.
+  • Built REST APIs and WebSocket connections for live price feeds and order sync, feeding dashboards for trading, market making and real-time analytics.
+  • Led the end-to-end frontend build from Figma prototypes, using agentic AI workflows, MCP and automated pipelines for component generation and end-to-end testing.
+
+- Uniswap Foundation (Feb 2025 – Aug 2026)
+  Developer Ambassador
+  • Built and maintained community-focused developer tools and resources to support adoption of Uniswap v4 and Unichain.
+  • Mentored and judged the Uniswap hook tracks at ETHGlobal Delhi, guiding teams on best practices and evaluating use cases.
+  • Led community engagement across Discord, forums and social; organised local meetups, technical workshops and virtual sessions.
+
+- Goequitize (Jun 2024 – Jul 2024)
+  Full Stack Blockchain Developer Intern
+  • Maintained and improved RWA tokenization smart contracts using Chainlink Functions and CCIP for secure cross-chain ownership.
+  • Improved user onboarding with Biconomy-based account abstraction.
+
+- LUSIP at LNMIIT (May 2023 – Jul 2023)
+  Blockchain Security Research Intern
+  • Read research papers on blockchains and protocols, and found a minor bug in the Uniswap v4-core repository.
+  • Built a working knowledge of Solidity vulnerabilities by solving CTFs such as Ethernaut and Damn Vulnerable DeFi.
+
+## Projects
+- JITPilot (EulerSwap · 3rd place · $5,000): https://github.com/mo-hak/JITpilot
+  Automated rebalancing for EulerSwap just-in-time liquidity, built to fight loss-versus-rebalancing (LVR). Time-weighted metrics and arbitrage-driven logic decide when a pool should rebalance. The smart contracts integrate with the Ethereum Vault Connector and are tested hard, giving LPs configurable health-factor thresholds, automated monitoring and dynamic rebalancing, for liquidity provision that is safer, more capital-efficient and more profitable.
+
+- Dynamic LP Assurance Hook (Uniswap v4 · Arbitrum Stylus · 2nd place): https://github.com/uhicapstone/capstone_solidity_contracts
+  An insurance pool for liquidity providers, built as a Uniswap v4 hook with Arbitrum Stylus. ERC-6909 tokens track each LP's cover, and pool funds are managed on-chain. Fee algorithms written in Rust price insurance and flash-loan fees dynamically from liquidity, volume, volatility, impermanent loss and trade size, so cost and payout stay fair as market conditions change.
+
+- SoulBoard (Colosseum · 4th of 1,400+ · $15k + $6k grant): https://arena.colosseum.org/projects/explore/soulboard
+  A Web3 advertising platform that connects physical IoT screens to real-time on-chain events. Oracles carry on-chain events to the devices. Real-time dashboards, campaign management and token distribution are built with Next.js, TailwindCSS, TypeScript, Node.js, the Metal API and Nodit webhooks. Funded by a $6,000 Superteam grant at prototype stage, then placed 4th of 1,400+ submissions at the Colosseum Breakout Hackathon.
+
+## Achievements
+- $15,000: Colosseum Breakout Hackathon: 4th of 1,400+ submissions (10,000+ participants) with SoulBoard
+- $6,000: Superteam grant for the SoulBoard prototype
+- $5,000: EulerSwap Builder Competition: 3rd place with JITPilot
+- $3,500: Uniswap Hookathon: 2nd place with the Dynamic LP Assurance Hook, after a two-month Uniswap Hook Incubator fellowship
+- Bounties: Open-source contributions to Web3 protocols including Fuel Labs and ConsenSys: features shipped and critical issues reported
+
+## Skills
+- Languages: TypeScript, JavaScript, Solidity, Rust, Python, HTML/CSS
+- Backend & distributed systems: Node.js, NestJS, Express.js, Bun, Event-driven microservices, BullMQ, Kafka, REST, WebSockets, Zod, WebAssembly, Distributed systems, System design
+- Data & databases: PostgreSQL, MongoDB, Redis, Prisma, SQLite (Durable Objects)
+- AI & agentic systems: Agent harness design, Tool calling (server and browser-side tools), Sub-agents, Mid-turn steering, Context compaction, Prompt caching, Agent skills, Vercel AI SDK, Cloudflare Agents / Think, MCP, Agentic coding workflows
+- Blockchain & Web3: EVM, Solana, Consensus, Cryptography, Uniswap v4 hooks, EulerSwap, PancakeSwap V2, Arbitrum Stylus, Chainlink Functions & CCIP, drand, Permit2, Account abstraction, Foundry, Hardhat, Wagmi, Viem / Ethers.js, Turnkey, Biconomy, Web3Auth, Alchemy
+- Financial systems: Prediction markets, Order management, Off-chain trading with on-chain settlement, Real-time price feeds, Staked challenges, Bonded disputes, Treasury fees, Multi-token routing
+- Cloud & DevOps: Cloudflare Workers, Durable Objects & Containers, Google Cloud (Compute, KMS), AWS S3, Docker
+- Testing & security: Vitest, Jest, Playwright, Headless multi-browser end-to-end tests, Fuzz and determinism testing, Sandboxed iframes & CSP, Smart contract security, Ethernaut / Damn Vulnerable DeFi
+- Frontend: React.js, Next.js, TailwindCSS, shadcn/ui, Figma to production
+
+## Education
+- The LNM Institute of Information Technology, Rajasthan, India: B.Tech–M.Tech, Computer Science and Engineering (Dec 2021 – May 2026)
