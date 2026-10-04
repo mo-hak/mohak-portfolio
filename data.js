@@ -25,11 +25,6 @@ const CV = {
         "Bento Create, a studio where an agent turns a one-line idea into a published, playable game. I built the harness: the tools, the sandboxed compile-and-playtest loop, and the checks a game has to pass before it can take real money",
     },
     {
-      phrase: "wallets that feel like Web2",
-      detail:
-        "a unified Turnkey smart-wallet layer behind Auth0 sign-in that works across web, mobile and group chats",
-    },
-    {
       phrase: "DeFi primitives",
       detail:
         "Uniswap v4 hooks and EulerSwap JIT-liquidity tooling that placed in both ecosystems' competitions, plus a minor bug found in the v4-core repository",
